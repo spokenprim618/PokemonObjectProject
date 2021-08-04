@@ -21,7 +21,23 @@ Step 3: open the script.js file and follow the instruction
   
   3b:complete the createCardDiv() function
 
-Extra Credit: add the event listener described in lines 81-86
+Extra Credit: 
+EC1:add the event listener described in lines 81-86
+
+EC2:create an array of abilities that the pokemon has and replace the description 
+text of each pokemon card with those abilities (this is how pokemon cards are
+in real life).
+
+EC3:Create another key in all of your pokemon objects called "type" and place
+primary typing (check google) of each pokemon as the value for this key, then create
+a battle(pokemonObj) function in each oject that takes another pokemon
+object as a parameter. This function should declare the winner of a battle
+between the pokemon obj calling the function and the pokemon obj that is being
+passed as the parameter to this function. The rules for deciding the winner are
+that the pokemon with more health wins, but if a pokemon has a super
+effective typing against another pokemon, its health is counted 
+1.5x
+
 
 Note:Once you create another pokemon object and push it to the array,
 move on to the step 3b and then when you're done with 3b, you may
