@@ -25,7 +25,7 @@ Extra Credit: add the event listener described in lines 81-86
 
 Note:Once you create another pokemon object and push it to the array,
 move on to the step 3b and then when you're done with 3b, you may
-go back and create more objects to your javacsript or work on extra
+go back and create more objects in your javacsript or work on extra
 credit. The project is individual but of course feel free to discuss
 solutions with your breakout peers.
 
