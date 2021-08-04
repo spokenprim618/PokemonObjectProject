@@ -47,3 +47,6 @@ solutions with your breakout peers.
 
 Check the example image included to see what the site should look
 like when you add two JS objects.
+
+Submission: Only submit the script.js file, since that is the only file
+you need to alter.
