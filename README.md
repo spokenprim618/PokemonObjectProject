@@ -21,6 +21,13 @@ Step 3: open the script.js file and follow the instruction
   
   3b:complete the createCardDiv() function
 
+
+    // Extra Credit:add a click event listener for the newCard
+    // div that is created in line 33. When the card is
+    // clicked, it should run the sayName() function
+    // of the object the newCard div gets its info from
+    // (will be pokemonArray[i])
+
 Extra Credit: 
 EC1:add the event listener described in lines 81-86
 
