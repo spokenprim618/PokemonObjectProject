@@ -40,19 +40,18 @@ pokemontext.appendChild(pokeName);
 pokemontext.appendChild(pokehealth);
 newCharacterSheet.appendChild(pokemontext);
 
-let desc=document.createElement('p');
-desc.className="description";
-desc.innerText=pokemonObject.descriptionText;
-newCharacterSheet.appendChild(desc);
- 
-
- let pokemonIMG =document.createElement('div');
+let pokemonIMG =document.createElement('div');
 pokemonIMG.className="imageDiv";
 let newIMG=document.createElement("img");
 pokemonIMG.appendChild(newIMG);
 newIMG.id="IMG"
-document.getElementById('IMG').src=pokemonObject.imgPath;
+newIMG.src=pokemonObject.imgPath;
 newCharacterSheet.appendChild(pokemonIMG);
+
+let desc=document.createElement('p');
+desc.className="description";
+desc.innerText=pokemonObject.descriptionText;
+newCharacterSheet.appendChild(desc);
 //problem with image again
 return newCharacterSheet;
 }
